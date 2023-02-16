@@ -2,8 +2,7 @@
 
 # Simple is-else program to check a number
 
-echo "Choose a number: "
-read VAR
+read -p "Choose a number: " VAR
 
 if [ $VAR -lt 10 ]   
 then
